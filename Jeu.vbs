@@ -1,4 +1,4 @@
-msgbox "Bonjour, es-tu pret à relever le défi du nombre mystère ?"_ 
+msgbox "Bonjour, es-tu pret Ã  relever le dÃ©fi du nombre mystÃ¨re ?"_ 
 + chr(13) _ 
 + chr(13) _ 
 + "J'ai choisi un nombre entre 1 et 1000, et tu dois le trouver !"_ 
@@ -8,7 +8,7 @@ msgbox "Bonjour, es-tu pret à relever le défi du nombre mystère ?"_
 + "Mais tu n'as que 10 essais pour le trouver." _ 
 + chr(13) _ 
 + chr(13) _ 
-+ "Bonne chance, mais tu ne peux gagner face à moi !", , "Le nombre mystère" 
++ "Bonne chance, mais tu ne peux gagner face Ã  moi !", , "Le nombre mystÃ¨re" 
 
 Randomize 
 secret = Int((1000 * Rnd) + 1) 
@@ -26,9 +26,9 @@ end if
 
 nombre = cint(inputbox ("Donne un nombre entre 1 et 1000")) 
 if (nombre = secret) then 
-msgbox "GAGNÉ !" _ 
+    msgbox "Super vous avez GAGNÃ‰ !" _ 
 + chr(13) _ 
-+ "Bravo, tu as trouvé en " & tentative & " coups !" 
++ "Bravo, tu as trouvÃ© en " & tentative & " coups !" 
 Wscript.quit 
 else 
 if (nombre > secret) then 
