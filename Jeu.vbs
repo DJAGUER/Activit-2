@@ -26,7 +26,7 @@ end if
 
 nombre = cint(inputbox ("Donne un nombre entre 1 et 1000")) 
 if (nombre = secret) then 
-    msgbox "Super vous avez GAGNÉ !" _ 
+    msgbox "Super vous avez Gagné !" _ 
 + chr(13) _ 
 + "Bravo, tu as trouvé en " & tentative & " coups !" 
 Wscript.quit 
